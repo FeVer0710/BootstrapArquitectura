@@ -1,0 +1,87 @@
+h1,h2,h3{
+	font-weight: 900;
+	font-size: 4rem;
+
+
+}
+h2{
+	font-size: 3.6rem;
+}
+h3{
+	font-size: 3rem;
+}
+
+.header{
+	height: 35rem;
+	background-image: url(../img/1.png);
+	background-size: cover;
+	background-position:  center;
+}
+
+.nombre-sitio{
+	font-size: 2.4rem;
+	font-weight: 300;
+}
+.nombre-sitio span{
+	font-weight: 900;
+
+}
+
+.nav-link{
+	color: white!important;
+}
+
+.telefono::before{	
+	background-image: url(../img/icono_telefono.png);
+	content: '';
+	display: inline-block;
+	height: 2rem;
+	width: 2rem;
+	background-repeat: no-repeat;
+	margin-right: 1rem;
+}
+
+.sobre-nosotros-bg{
+	min-height: 35rem;
+	background-image: url(../img/2.jpg);
+	background-repeat: no-repeat;
+
+}
+
+.modelo{
+
+	background-repeat: no-repeat;
+
+	min-height: 40rem;
+
+}
+
+@media(min-width: 768px){
+	.modelo{
+		min-height: 30rem;
+	}
+
+}
+.basico{
+	background-image: url(../img/3.png);
+	background-position: top right;
+
+}
+
+.premier{
+	background-image: url(../img/4.png);
+	background-position: top left;
+}
+
+.elite{
+	background-image: url(../img/5.png);
+	background-position: top right;
+
+}
+
+.footer{
+	height: 30rem;
+	background-image: url(../img/13.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
