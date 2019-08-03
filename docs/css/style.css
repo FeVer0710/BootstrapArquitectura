@@ -60,8 +60,19 @@ h3{
 	.modelo{
 		min-height: 30rem;
 	}
-
 }
+
+.bg-tarjetas{
+	background: white;
+}
+
+@media(max-width: 576px){
+	.bg-tarjetas{
+		background: rgba(255, 255, 255, 0.534);
+	}
+}
+
+
 .basico{
 	background-image: url(../img/3.png);
 	background-position: top right;
